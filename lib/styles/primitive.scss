@@ -1,0 +1,108 @@
+
+.firstbutton{
+    background-color: red;
+    color: green;
+}
+
+.superbutton {
+    color:white;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    text-transform:capitalize;
+  }
+
+
+.superbutton-red {
+    background-color: red;
+}
+
+.superbutton-green {
+    background-color: green;
+}
+
+
+.modal {
+    background: #f0f0f0;;
+    color: #171717;
+    border: 1px solid #eee;
+    border-radius: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.modal-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 10px;
+    font-size: 20px;
+}
+
+.modal-title h3, .modal-title p {
+    margin: 0;
+}
+
+.modal-content{
+    display: flex;
+    padding: 10px 20px;
+    border-top:    1px solid #d0d0d0;
+    border-bottom: 1px solid #d0d0d0;
+    font-size:16px;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    padding: 20px;
+}
+
+:root{
+    //Internal Colours
+    --i-color-black: #171717;
+    --i-color-white: #ffffff;
+
+    --i-color-blue-100: #cddcf4;
+    --i-color-blue-200: #B4D1FF;
+    --i-color-blue-300: #6A96DD;
+    --i-color-blue-400: #3873D1;
+    --i-color-blue-500: #0650C6;
+    --i-color-blue-600: #05409E;
+    --i-color-blue-700: #043077;
+    --i-color-blue-800: #02204F;
+    
+    --i-color-grey-100: #FAFAFA;
+    --i-color-grey-200: #F7F7F7;
+    --i-color-grey-300: #E0E0E0;
+    --i-color-grey-400: #8B99A9;
+   // --i-color-grey-500: #02204F;
+    --i-color-grey-600: #545454;
+   // --i-color-grey-700: #02204F;
+   // --i-color-grey-800: #02204F;
+
+    --i-color-green-100: #D1E0D4;
+    --i-color-green-200: #A3C1A9;
+    --i-color-green-300: #76A37F;
+    --i-color-green-400: #488454;
+    --i-color-green-500: #1A6529;
+    --i-color-green-600: #155121;
+    --i-color-green-700: #103D19;
+    --i-color-green-800: #0A2810;
+
+    --i-color-red-100: #EED3D3;
+    --i-color-red-200: #DDA7A7;
+    --i-color-red-300: #CC7A7A;
+    --i-color-red-400: #BB4E4E;
+    --i-color-red-500: #AA2222;
+    --i-color-red-600: #881B1B;
+    --i-color-red-700: #661414;
+    --i-color-red-800: #440E0E;
+
+
+
+}
+

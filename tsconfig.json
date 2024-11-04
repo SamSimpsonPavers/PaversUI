@@ -1,0 +1,13 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "include": ["src", "lib"],
+  "compilerOptions": {
+    "allowImportingTsExtensions": true,
+    "noEmit": true, // Add this line
+    "jsx": "react" // or "react-jsx"
+  }
+}
