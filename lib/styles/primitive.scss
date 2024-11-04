@@ -1,36 +1,30 @@
-
-.firstbutton{
-    background-color: red;
-    color: green;
-}
-
 .superbutton {
     color:white;
-    border-radius: 8px;
+    border-radius: var(--i-space-050);;
     border: 1px solid transparent;
-    padding: 0.6em 1.2em;
-    font-size: 1em;
+    padding: var(--i-space-050) var(--i-space-125);
+    font-size: var(--i-space-100);
     font-weight: 500;
     cursor: pointer;
     transition: border-color 0.25s;
-    text-transform:capitalize;
+    text-transform: capitalize;
   }
 
 
 .superbutton-red {
-    background-color: red;
+    background-color: var(--i-color-red-500);
 }
 
 .superbutton-green {
-    background-color: green;
+    background-color: var(--i-color-green-500);
 }
 
 
 .modal {
-    background: #f0f0f0;;
-    color: #171717;
-    border: 1px solid #eee;
-    border-radius: 16px;
+    background: var(--i-color-grey-100);
+    color: var(--i-color-black);
+    border: 1px solid var(--i-color-grey-300);
+    border-radius: var(--i-space-100);
     font-family: Arial, Helvetica, sans-serif;
     max-width: 800px;
     margin: 0 auto;
@@ -38,8 +32,8 @@
 .modal-title {
     display: flex;
     justify-content: space-between;
-    padding: 20px 20px 10px;
-    font-size: 20px;
+    padding: var(--i-space-125) var(--i-space-125) var(--i-space-075);
+    font-size: var(--i-space-125);
 }
 
 .modal-title h3, .modal-title p {
@@ -48,17 +42,17 @@
 
 .modal-content{
     display: flex;
-    padding: 10px 20px;
-    border-top:    1px solid #d0d0d0;
-    border-bottom: 1px solid #d0d0d0;
-    font-size:16px;
+    padding: var(--i-space-075) var(--i-space-125);
+    border-top:    1px solid var(--i-color-grey-300);
+    border-bottom: 1px solid var(--i-color-grey-300);
+    font-size:var(--i-space-100);
 }
 
 .modal-buttons {
     display: flex;
     justify-content: end;
-    gap: 20px;
-    padding: 20px;
+    gap: var(--i-space-125);
+    padding: var(--i-space-125);
 }
 
 :root{
@@ -102,7 +96,26 @@
     --i-color-red-700: #661414;
     --i-color-red-800: #440E0E;
 
-
-
+    --i-space-025: 0.25rem;
+    --i-space-050:0.50rem;
+    --i-space-075:0.75rem;
+    --i-space-100:1rem;
+    --i-space-125:1.25rem;
+    --i-space-150:1.5rem;
+    --i-space-175:1.75rem;
+    --i-space-200:2rem;
+    --i-space-225:2.25rem;
+    --i-space-250:2.5rem;
+    --i-space-275:2.75rem;
+    --i-space-300:3rem;
+    --i-space-325:3.25rem;
+    --i-space-350:3.5rem;
+    --i-space-375:3.75rem;
+    --i-space-400:4rem;
+    --i-space-600:6rem;
+    --i-space-800:8rem;
+    --i-space-negative-100:-1rem;
+    --i-space-negative-200:-2rem;
+    --i-space-negative-300:-3rem;
 }
 

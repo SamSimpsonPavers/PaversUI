@@ -11,6 +11,10 @@ function App() {
         <Modal
           title="Add"
           textcontent="Body"
+          button1color="green"
+          button1text="Yes"
+          button2color="red"
+          button2text="No"
         />
       </div>
     </>
