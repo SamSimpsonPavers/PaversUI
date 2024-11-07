@@ -7,7 +7,7 @@ function App() {
     <>
       <div>
 
-        <SuperButton text="Hello" color="red"></SuperButton>
+        <SuperButton text="Hello" color="disabled"></SuperButton>
         <Modal
           title="Add"
           textcontent="Body"

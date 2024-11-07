@@ -6,17 +6,32 @@
     font-size: var(--i-space-100);
     font-weight: 500;
     cursor: pointer;
-    transition: border-color 0.25s;
+    transition: 0.25s;
     text-transform: capitalize;
   }
+
+.superbutton-disabled {
+    background-color: var(--i-color-grey-300);
+}
+
+.superbutton-disabled:hover {
+    background-color: var(--i-color-grey-200);
+}
 
 
 .superbutton-red {
     background-color: var(--i-color-red-500);
 }
 
+.superbutton-red:hover {
+    background-color: var(--i-color-red-400);
+}
+
 .superbutton-green {
     background-color: var(--i-color-green-500);
+}
+.superbutton-green:hover {
+    background-color: var(--i-color-green-400);
 }
 
 
